@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(165,75,75,0.3);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bolder;
+}
+
+h2{
+    color: rgb(46, 64, 162);
+}
+
+h1{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 3rem;
+    position: relative;
+    bottom: 0.6rem;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #2980b9;
+}
+
+h1 {
+    color: #333;
+}
+
+.button-container {
+    max-width: 400px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-container:hover{
+    transform: scale(1.05);
+    color: rgb(203, 45, 45);
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.path-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.path-button:hover {
+    background-color: #2980b9;
+}
+
+img {
+    width: 100%;
+    max-width: 30rem;
+    margin-bottom: 1rem;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    .middle {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .button-container{
+        display: flex;
+    flex-direction: column;
+    }
+}

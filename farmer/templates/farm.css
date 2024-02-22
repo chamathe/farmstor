@@ -1,0 +1,141 @@
+.main {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.farm-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 1000px;
+    text-align: center;
+    border-top-right-radius: 10rem;
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 10rem;
+    padding-bottom: 2rem;
+}
+
+.farm-image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 10rem;
+}
+
+.farm-info {
+    margin-bottom: 20px;
+}
+
+.farm-info p {
+    margin: 8px 0;
+}
+
+.edit-farm-btn,.logout-btn, .add-products-btn {
+    text-decoration: none;
+    margin: 1rem; 
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    border: none;
+    font-weight: bolder;
+}
+
+.edit-farm-btn, .add-products-btn{
+    background-color: #46699a;
+}
+
+.edit-farm-btn:hover,.add-products-btn:hover{
+    background-color: rgb(66, 179, 66);
+    cursor: pointer;
+}
+
+hr{
+    width: 30rem;
+    border: #46699a dotted 1px;
+}
+
+.farm-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+
+.farm-second h4{
+    color: #3965a2;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.logout-btn{
+    background-color: rgb(139, 40, 40);
+}
+
+.logout-btn:hover{
+    background-color: rgb(225, 64, 64);
+    cursor: pointer;
+}
+
+.edit-icon{
+    width: 0.9rem;
+}
+
+
+
+.farm-btn {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; 
+}
+
+
+
+
+
+.farm-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.farm-name{
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+    color: #0047AB;;
+}
+
+.user-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-name p{
+   color: gray;
+}
+
+@media (min-width: 600px) {
+    .profile-btn {
+        flex-direction: row; 
+        justify-content: center;
+    }
+
+}

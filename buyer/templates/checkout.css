@@ -1,0 +1,218 @@
+form{
+    padding: 0.5rem;
+}
+
+.order-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+.order-summary-table th, .order-summary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-summary-table th {
+    background-color:#0047AB;
+    color: white;
+    text-align: center;
+}
+
+.order-summary-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+h3{
+    margin-bottom: -0.5rem;
+    margin-top: -0.2rem;
+    color: #262626;
+    text-decoration: underline solid 0.1px;
+}
+
+.update-cart-section {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 1px auto;
+   margin-right: 1rem;
+}
+
+.containercard {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.changecard {
+    background-color: white;
+    color: red;
+    padding: 5px 3px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0.9rem;
+    width: 12rem; 
+    position: relative;
+    left: 52rem;
+    bottom: 30rem;
+}
+
+.changecard:hover {
+    background-color: #5e3535;
+    color: white;
+}
+
+.containercash {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+.changecash {
+    background-color: white;
+    color: red;
+    padding: 5px 3px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0.9rem;
+    width: 12rem;
+    position: relative;
+    left: 52rem;
+    bottom: 11rem;
+    
+}
+
+.changecash:hover {
+    background-color: #5e3535;
+    color: white;
+}
+
+.tcost {
+    color: black;
+    border-bottom: double black;
+    border-width: 8px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.sub-cost{
+    font-size: 0.7rem;
+}
+
+.sub-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-area h1{
+    color: #0047AB !important;
+  font-size: 3rem !important;
+  margin-top: 1rem !important;
+  text-align: center !important;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.porder {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0047AB;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+label{
+    font-weight: bold;
+    color: #262626;
+}
+
+.porder:hover {
+    opacity: 1;
+    background-color: rgb(15, 145, 15);
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+
+  
+
+  label {
+    margin-bottom: 8px;
+  }
+
+  input, select {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-bottom: 1px solid #747474;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 30px; 
+    outline: none;
+  }
+
+  input::placeholder, select::placeholder{
+    color: rgb(151, 170, 176);
+  }
+
+ 
+
+  #card{
+    background-image: url('images/visa-logo.png'); 
+    background-size: 2rem;
+  }
+
+  #card[placeholder='MasterCard'] {
+    background-image: url('images/mastercard-logo.png'); 
+    background-size: 2rem;
+  }
+
+
+
+footer{
+    margin-top: 4rem;
+}
+

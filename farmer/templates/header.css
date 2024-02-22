@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+    background-color: whitesmoke;
+  }
+
+  .main-background {
+    background-color: whitesmoke;
+  }
+
+  .pending-count{
+    color: #FA5F55;
+    font-weight: bolder;
+  }
+
+  .pending-count:hover{
+    color: black;
+  }
+  
+  header {
+    background-color: #87CEEB;
+    color: black !important;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    align-items:end ;
+    height: 3rem;
+  }
+
+  .logo img{
+    width: 2.5rem;
+    position: relative;
+    top: 1rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+  
+  header h1{
+    position: relative;
+
+    top: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .profile{
+    color: black !important;
+    text-decoration: none;
+    position: relative;
+    bottom: 1rem;
+    right: 0.5rem;
+    
+  }
+  
+  .not-logged{
+    color: white;
+    background-color: rgb(73, 8, 8);
+    padding: 0.6rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    position: relative;
+    bottom: 0.2rem;
+  
+  }
+    
+  .not-logged:hover{
+    color: black;
+    background-color: white;
+  }
+
+     /* Footer Styles */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    
+  }
+
+
+  .errormsg{
+    text-align: center;
+    color: #FA5F55;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  footer p {
+    margin: 5px 0;
+    font-weight: 100;
+    font-size: small;
+  }
+
+  .footer-links{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+
+  .footer-links a{
+    cursor: pointer;
+    color: lightblue;
+  }
+
+  header img{
+    width: 1.5rem;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  .order-icon{
+    width: 2.5rem;
+    position: relative;
+    top: 1rem;
+  }
+
+  
+  header a:hover{
+    background-color: #FA5F55;
+    padding: 5px;
+    border-radius: 50rem;
+  }

@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+.title-area h1{
+    color: #0047AB;
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+hr {
+    width: 70rem;
+}
+
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.title-farm{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-display{
+  font-size: small;
+  color: lightskyblue;
+}
+
+.shelf-time{
+  font-size: smaller;
+  color: rgb(222, 42, 42);
+  font-weight: bolder;
+}
+
+.action-btn {
+  margin-top: 1rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 1rem;
+  margin-bottom: 0rem;
+  }
+  
+  .action-btn img {
+  width: 1.3rem !important;
+  height: auto !important;
+  opacity:0.4 ;
+  }
+  
+  .action-btn button:hover {
+  opacity: 1;
+  background-color: #F88379;
+  padding: 0.3rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  }
+
+  .action-btn button {
+    border: none;
+    background-color: white;
+    }
+  
+
+  .card img {
+    width: 18rem;
+    height: 10rem;
+  }
+
+  .card-content {
+    padding: 1em;
+  }
+
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+
+  .card-button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    display: block;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+
+  .card-button:hover {
+    background-color: #555;
+  }

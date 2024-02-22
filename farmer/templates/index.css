@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: auto;
+    background-color:black;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.login-left {
+    background-color:black;
+    padding: 20px;
+    width: 50%;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    color: white;
+}
+
+.header{
+    font-size: 3.5rem;
+}
+
+.reg-header{
+    font-size: 2rem;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none; 
+}
+
+
+
+.form-group button {
+    background-color: #87CEEB;
+    color: black;
+    padding: 1rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 10rem;
+    font-size: 1.5rem;
+}
+
+.form-group button:hover {
+    background-color: #FA5F55;
+}
+
+.form-group p.email-label {
+    display: none;
+    color: #ADD8E6;
+    font-size: 1.5rem;
+}
+
+.form-group p.fname-label {
+    display: none;
+    color: #ADD8E6;
+    font-size: 1.5rem;
+}
+
+.errormsg{
+    color: #D2042D;
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+.show-pw{
+display: flex;
+flex-direction: row;
+font-size: smaller;
+padding: 1px;
+
+}
+
+.pw-show{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group p.password-label {
+    display: none;
+    color: #ADD8E6;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+.form-group p.telephone-label {
+    display: block;
+    color: #ADD8E6;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+}
+
+.registration-form {
+    display: none;
+}
+
+.registration-container {
+    margin-left: 100%;
+}
+
+.register-container {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.register-left {
+    background-color: black;
+    padding: 20px;
+    width: 50%;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    color: white;
+}
+
+.header{
+    font-size: 3.5rem;
+}
+
+.regoster-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.name-email .form-group {
+    flex: 1;
+}
+
+.name-email input {
+    width: 100%;
+}
+
+.register-form .form-group p{
+    display: none;
+    color: #ADD8E6;
+    font-size: 1rem;
+    margin-top: -0.5rem;
+}
+
+.button-link{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-content: center;
+}
+
+
+.redirect-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.redirect-login p{
+    margin-right: 1rem;
+}
+
+
+.register-form .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-bottom: 0.5rem;
+}
+
+.register-form .form-group {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+

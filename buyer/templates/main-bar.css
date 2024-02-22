@@ -1,0 +1,143 @@
+/* Common Styles for All Screen Sizes */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-line {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin-right: 10px;
+  padding-left: 1rem;
+}
+
+.category-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-right: 1rem;
+}
+
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  
+}
+
+.category-select a {
+  text-decoration: none;
+  color: rgb(175, 208, 194);
+  font-weight: bolder;
+}
+
+.category-select a:hover {
+  color: #FA5F55;
+}
+
+
+@media screen and (max-width: 768px) {
+  .search-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .search-line {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .category-select {
+      width: 100%;
+      text-align: center;
+  }
+
+  ul li {
+      margin-bottom: 10px;
+      margin-left: 1rem;
+  }
+
+  .search-bar {
+      width: 100%;
+      margin: 0;
+  }
+
+  .search-btn {
+      margin-top: 10px;
+  }
+}
+
+.search-section {
+  width: auto;
+  padding: 3rem;
+  text-align: center;
+  margin: auto;
+  height: 31.8rem;
+}
+
+.search-bar {
+  height: 4rem;
+  outline: none;
+  width: 20rem;
+  padding: 0;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 15px rgba(255, 3, 3, 0);
+}
+
+.search-btn {
+  background-color: rgb(182, 174, 174);
+  border: none;
+  padding: 1rem;
+  margin-top: 0.3rem;
+  border-radius: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn img {
+  width: 1.5rem;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+  background-color: #FA5F55;
+}
+
+.search-btn img:hover{
+  width: 1.6rem;
+}
+
+.category-list {
+
+  font-size: small;
+  }
+  
+  .category-list:hover {
+  color: #e44d26;
+  font-size: large;
+  }
+  
+  .category-list.selected {
+    background-color: rgb(228,77,38,0.5);
+  font-size: large;
+  border-radius: 5rem;
+  padding: 0.3em;
+  }

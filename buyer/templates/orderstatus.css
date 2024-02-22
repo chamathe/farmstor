@@ -1,0 +1,114 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5rem;
+   
+  }
+
+  .title-area h1{
+    color: #0047AB !important;
+  font-size: 3rem !important;
+  margin-top: 1rem !important;
+  text-align: center !important;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.payment{
+  font-weight: bolder;
+  color: #da2222;
+}
+  
+  h2 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  thead th, tfoot td {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tfoot td {
+    border-top: 2px solid #333;
+    font-weight: bold;
+  }
+  
+  button {
+    width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #0047ab;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover{
+  opacity: 1;
+  background-color: rgb(15, 145, 15);
+  cursor: pointer;
+  transform: scale(1.02);
+}
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  tbody img {
+    max-width: 100px; 
+    max-height: 100px;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .tcost {
+    color: black;
+    border-bottom: double black;
+    border-width: 8px;
+    font-size: 1rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-cost{
+    font-size: 0.7rem;
+}
+
+.sub-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cost-list {
+  width: 10rem;
+  float: right;
+}
